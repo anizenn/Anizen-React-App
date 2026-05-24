@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/anikai/:path*",
+      "destination": "https://anizen-proxy-cutie.onrender.com/anikai/:path*"
+    },
+    {
+      "source": "/anikoto/:path*",
+      "destination": "https://anikotoapi.site/:path*"
+    },
+    {
+      "source": "/((?!api/).*)",
+      "destination": "/index.html"
+    }
+  ]
+}

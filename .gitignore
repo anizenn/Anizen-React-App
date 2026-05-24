@@ -1,0 +1,99 @@
+# ==============================
+# Dependencies
+# ==============================
+node_modules/
+.pnp
+.pnp.js
+
+# Worker
+worker/node_modules/
+worker/.wrangler/
+
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env.*.local
+*.pem
+
+# ==============================
+# Build Outputs
+# ==============================
+dist/
+dist-ssr/
+build/
+out/
+.output/
+.vite/
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================
+# OS & Editor
+# ==============================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ==============================
+# Cloudflare Workers
+# ==============================
+.wrangler/
+worker/dist/
+worker/node_modules/
+.dev.vars
+
+# ==============================
+# Docker
+# ==============================
+.dockerignore
+docker-compose.override.yml
+
+# ==============================
+# Vercel
+# ==============================
+.vercel/
+
+# ==============================
+# Testing & Coverage
+# ==============================
+coverage/
+*.lcov
+.nyc_output/
+cypress/videos/
+cypress/screenshots/
+
+# ==============================
+# Cache
+# ==============================
+.cache/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+*.tsbuildinfo
+
+# ==============================
+# Misc
+# ==============================
+*.local

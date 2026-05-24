@@ -1,0 +1,14 @@
+name = "anizen-api"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "SESSION_CACHE"
+id = "1d1787b1e0b34bd493f24d380ae4a1bc"
+
+[env.production]
+
+[[env.production.kv_namespaces]]
+binding = "SESSION_CACHE"
+id = "1d1787b1e0b34bd493f24d380ae4a1bc"

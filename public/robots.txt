@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /watch/
+
+Sitemap: https://anizen.site/sitemap.xml

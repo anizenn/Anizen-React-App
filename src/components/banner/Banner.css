@@ -1,0 +1,125 @@
+.spotlight-overlay {
+  width: 100.1%;
+  height: 100.1%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background:
+    linear-gradient(to right,
+      rgba(42, 44, 49, 1) 0%,
+      rgba(42, 44, 49, 1) 22%,
+      rgba(42, 44, 49, 0.6) 32%,
+      rgba(42, 44, 49, 0) 50%),
+    radial-gradient(circle at 80% center,
+      rgba(42, 44, 49, 0) 50%,
+      rgba(42, 44, 49, 0.3) 60%,
+      rgba(42, 44, 49, 0.6) 80%,
+      rgba(42, 44, 49, 1) 90%),
+    linear-gradient(to top,
+      rgba(42, 44, 49, 1) 0%,
+      rgba(42, 44, 49, 0.8) 12%,
+      rgba(42, 44, 49, 0.2) 35%,
+      rgba(42, 44, 49, 0) 90%),
+    linear-gradient(to left,
+      rgba(42, 44, 49, 1) 0%,
+      rgba(42, 44, 49, 0.4) 20%,
+      rgba(42, 44, 49, 0) 90%),
+    linear-gradient(to bottom,
+      rgba(42, 44, 49, 1) 0%,
+      rgba(42, 44, 49, 0.8) 12%,
+      rgba(42, 44, 49, 0.2) 35%,
+      rgba(42, 44, 49, 0) 90%);
+  z-index: 1;
+}
+
+@media only screen and (max-width: 1300px) {
+  .spotlight-overlay {
+    background:
+      linear-gradient(to right,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.95) 15%,
+        rgba(42, 44, 49, 0.5) 35%,
+        rgba(42, 44, 49, 0) 55%),
+      radial-gradient(circle at 130% center,
+        rgba(42, 44, 49, 0) 50%,
+        rgba(42, 44, 49, 0.3) 60%,
+        rgba(42, 44, 49, 0.8) 80%,
+        rgba(42, 44, 49, 1) 100%),
+      linear-gradient(to top,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 12%,
+        rgba(42, 44, 49, 0.2) 35%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to left,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.4) 20%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to bottom,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 12%,
+        rgba(42, 44, 49, 0.2) 35%,
+        rgba(42, 44, 49, 0) 100%);
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .spotlight-overlay {
+    background:
+      linear-gradient(to right,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.95) 15%,
+        rgba(42, 44, 49, 0.5) 35%,
+        rgba(42, 44, 49, 0) 55%),
+      radial-gradient(circle at 100% center,
+        rgba(42, 44, 49, 0) 50%,
+        rgba(42, 44, 49, 0.3) 60%,
+        rgba(42, 44, 49, 0.8) 95%,
+        rgba(42, 44, 49, 1) 100%),
+      linear-gradient(to top,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 12%,
+        rgba(42, 44, 49, 0.2) 35%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to left,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.4) 20%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to bottom,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 12%,
+        rgba(42, 44, 49, 0.2) 35%,
+        rgba(42, 44, 49, 0) 100%);
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .spotlight-overlay {
+    background:
+      linear-gradient(to right,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.95) 15%,
+        rgba(42, 44, 49, 0.5) 35%,
+        rgba(42, 44, 49, 0) 55%),
+      radial-gradient(circle at 60% center,
+        rgba(42, 44, 49, 0) 50%,
+        rgba(42, 44, 49, 0.3) 85%,
+        rgba(42, 44, 49, 0.8) 95%,
+        rgba(42, 44, 49, 1) 100%),
+      linear-gradient(to top,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 15%,
+        rgba(42, 44, 49, 0.2) 40%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to left,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.4) 20%,
+        rgba(42, 44, 49, 0) 100%),
+      linear-gradient(to bottom,
+        rgba(42, 44, 49, 1) 0%,
+        rgba(42, 44, 49, 0.8) 15%,
+        rgba(42, 44, 49, 0.2) 40%,
+        rgba(42, 44, 49, 0) 100%);
+  }
+}
