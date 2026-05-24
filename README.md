@@ -1,17 +1,17 @@
 <p align="center">
   <div align="center">
     <a href="https://anizen.site/">
-      <img alt="AniZen" src="https://raw.githubusercontent.com/anizen-new/anizen/refs/heads/main/public/logo.png" width="220"/>
+      <img alt="AniZen" src="public/logo.png" width="220"/>
     </a>
   </div>
   <h3 align="center">AniZen — Free Anime Streaming Platform</h3>
   <p align="center">
-    <a href="https://github.com/anizen-new/anizen">
-      <img src="https://img.shields.io/github/stars/anizen-new/anizen" alt="Github Stars">
+    <a href="https://github.com/anizenn/Anizen-React-App">
+      <img src="https://img.shields.io/github/stars/anizenn/Anizen-React-App" alt="Github Stars">
     </a>
-    <img src="https://img.shields.io/github/issues/anizen-new/anizen" alt="Github Issues">
-    <a href="https://github.com/anizen-new/anizen">
-      <img src="https://img.shields.io/github/forks/anizen-new/anizen" alt="Github Forks"/>
+    <img src="https://img.shields.io/github/issues/anizenn/Anizen-React-App" alt="Github Issues">
+    <a href="https://github.com/anizenn/Anizen-React-App">
+      <img src="https://img.shields.io/github/forks/anizenn/Anizen-React-App" alt="Github Forks"/>
     </a>
   </p>
 </p>
@@ -47,6 +47,12 @@
 - Continue watching history
 - Auto-skip preference setting
 
+### Security
+- Service Worker with rate limiting & request interception
+- DevTools detection
+- Blocked malicious URL patterns
+- Keyboard shortcut protection
+
 </details>
 
 ---
@@ -70,8 +76,8 @@
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/anizen-new/anizen.git
-cd anizen
+git clone https://github.com/anizenn/Anizen-React-App.git
+cd Anizen-React-App
 ```
 
 ### 2. Install dependencies
@@ -108,7 +114,7 @@ The app will be available at `http://localhost:5173`.
 
 ```bash
 npm run build
-wrangler pages deploy dist --project-name=anizen
+wrangler pages deploy dist --project-name=anizen-react-app
 ```
 
 Or connect your GitHub repo in the Cloudflare dashboard:
@@ -157,10 +163,7 @@ Set the public HTTPS URL as `VITE_POCKETBASE_URL` in your Pages environment vari
 ## Docker
 
 ```bash
-# Build
 docker build -t anizen .
-
-# Run
 docker run -d -p 5173:80 anizen
 ```
 
@@ -184,4 +187,4 @@ If you find a bug or have a suggestion, please open an issue with a clear descri
 
 If you like the project, feel free to drop a ⭐. Your support means a lot.
 
-<p align="center">Made with 🫰 by <a href="https://github.com/anizen-new" target="_blank">anizen-new</a></p>
+<p align="center">Made with 🫰 by <a href="https://github.com/anizenn" target="_blank">anizenn</a></p>
